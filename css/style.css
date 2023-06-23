@@ -37,6 +37,12 @@ Primary: #e67e22
   box-sizing: border-box;
 }
 
+html {
+  /* font-size: 10px; */
+
+  font-size: 62.5%;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1;
