@@ -156,5 +156,6 @@ body {
 }
 
 .delivered-text span {
-  color: #e67e22;
+  color: #cf711f;
+  font-weight: 700;
 }
