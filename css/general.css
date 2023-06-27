@@ -120,6 +120,13 @@ GENERAL REUSABLE COMPONENT
   border-bottom: 1px solid transparent;
 }
 
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
 /* Helper classes */
 .margin-right-sm {
   margin-right: 1.6rem !important;
