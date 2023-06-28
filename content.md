@@ -125,10 +125,6 @@ For Business
 Cooking partners
 Careers
 
-Recipe directory
-Help center
-Privacy & terms
-
 ## Sections
 
 - Logo + Navigation
