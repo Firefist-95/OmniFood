@@ -105,6 +105,14 @@ The media query will fire below 1200px
   .gallery {
     grid-template-columns: repeat(6, 1fr);
   }
+
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
 }
 
 /*
