@@ -614,3 +614,11 @@ CTA Section
   outline: none;
   box-shadow: 0 0 0 0.8rem hsla(26, 84%, 95%, 0.212);
 }
+
+/*************
+CTA Section
+ **************/
+
+.footer {
+  padding: 9.6rem 0;
+}
