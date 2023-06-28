@@ -124,6 +124,13 @@ GENERAL REUSABLE COMPONENT
   color: #fdf2e9;
   align-self: end;
   padding: 1.2rem;
+  transition: all 0.5s;
+}
+
+.btn--form:hover,
+.btn--form:active {
+  background-color: #fff;
+  color: #555;
 }
 
 .link:link,
@@ -147,6 +154,13 @@ GENERAL REUSABLE COMPONENT
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+}
+
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22;
+  outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem hsla(28, 80%, 52%, 0.452);
 }
 
 /* Helper classes */

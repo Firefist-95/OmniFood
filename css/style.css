@@ -609,3 +609,8 @@ CTA Section
 .cta-form input::placeholder {
   color: #aaa;
 }
+
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem hsla(26, 84%, 95%, 0.212);
+}
