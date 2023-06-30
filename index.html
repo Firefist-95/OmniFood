@@ -17,6 +17,7 @@
 
   <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+  <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
   <script defer src="js/script.js"></script>
 </head>
 
@@ -27,11 +28,11 @@
     </a>
     <nav class="main-nav">
       <ul class="main-nav-list">
-        <li><a class="main-nav-link" href="#">How it works</a></li>
-        <li><a class="main-nav-link" href="#">Meals</a></li>
-        <li><a class="main-nav-link" href="#">Testimonials</a></li>
-        <li><a class="main-nav-link" href="#">Pricing</a></li>
-        <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
+        <li><a class="main-nav-link" href="#how">How it works</a></li>
+        <li><a class="main-nav-link" href="#meals">Meals</a></li>
+        <li><a class="main-nav-link" href="#testimonials">Testimonials</a></li>
+        <li><a class="main-nav-link" href="#price">Pricing</a></li>
+        <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
       </ul>
     </nav>
 
@@ -54,8 +55,8 @@
             eat healthy again. Tailored to your personal tastes and
             nutritional needs. We have delivered 250,000+ meals last year!
           </p>
-          <a href="#" class="btn btn--full margin-right-sm">Start eating well</a>
-          <a href="#" class="btn btn--outline">Learn more &DownArrow;</a>
+          <a href="#cta" class="btn btn--full margin-right-sm">Start eating well</a>
+          <a href="#how" class="btn btn--outline">Learn more &DownArrow;</a>
 
           <div class="delivered-meals">
             <div class="delivered-imgs">
@@ -90,7 +91,7 @@
       </div>
     </section>
 
-    <section class="section-how">
+    <section class="section-how" id="how">
       <div class="container">
         <span class="subheading">How it works</span>
         <h2 class="heading-secondary">
@@ -145,7 +146,7 @@
         </div>
       </div>
     </section>
-    <section class="section-meals">
+    <section class="section-meals" id="meals">
       <div class="container center-text">
         <span class="subheading">Meals</span>
         <h2 class="heading-secondary">
@@ -227,7 +228,7 @@
         </div>
     </section>
 
-    <section class="section-testimonials grid grid--2-cols">
+    <section class="section-testimonials grid grid--2-cols" id="testimonials">
 
       <div class="testimonial-container">
 
@@ -316,7 +317,7 @@
       </div>
     </section>
 
-    <section class="section-pricing">
+    <section class="section-pricing" id="price">
       <div class="container">
         <span class="subheading">Meals</span>
         <h2 class="heading-secondary">
@@ -435,7 +436,7 @@
 
     </section>
 
-    <section class="section-cta">
+    <section class="section-cta" id="cta">
       <div class="container ">
         <div class="cta">
 
@@ -497,7 +498,7 @@
           <li><a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-twitter" class=" footer-link""></ion-icon></a></li>
         </ul>
 
-        <p class=" copyright">Copyright &copy; <span class="year">2037</span> by Ranjeet S, Inc. All rights reserved
+        <p class=" copyright">Copyright &copy; <span class="year">2037</span> by Omnifoods Inc. All rights reserved
                 </p>
       </div>
       <div class="address-col">
