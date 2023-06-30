@@ -84,11 +84,11 @@
         </div>
         <div class="hero-img-box">
           <picture>
-            <source srcset="/img/hero.webp" type="image/webp">
-            <source srcset="/img/hero_1.png" type="image/png">
+            <source srcset="img/hero.webp" type="image/webp">
+            <source srcset="img/hero_1.png" type="image/png">
           </picture>
 
-          <img src="/img/hero_1.png" class="hero-img"
+          <img src="img/hero_1.png" class="hero-img"
             alt="Woman Enjoying Food, meals in storage and food bowl on the table" />
         </div>
       </div>
@@ -462,23 +462,24 @@
             <p class="cta-text">Healthy, tasty and hassle-free meals are waiting for you. Start eating well today.
               You can cancel or pause anytime. And the first meal is on us!</p>
 
-            <form action="#" class="cta-form">
+            <form class="cta-form" name="sign-up" netlify>
 
               <div>
                 <label for="full-name">Full Name</label>
-                <input id="full-name" type="text" placeholder="Hari Vishnu" required>
+                <input id="full-name" type="text" placeholder="Hari Vishnu" name="full-name" required>
               </div>
 
 
               <div>
                 <label for="email">Email address</label>
-                <input id="email" type="email" aria-placeholder="Enter your email address" placeholder="me@example.com">
+                <input id="email" type="email" aria-placeholder="Enter your email address" placeholder="me@example.com"
+                  name="email" required>
               </div>
 
 
               <div>
                 <label for="select-where">Where did you hear about us!</label>
-                <select id="select-where" required>
+                <select id="select-where" name="select-where" required>
                   <option value="">Please choose an option</option>
                   <option value="Friends">Friends and family</option>
                   <option value="Yutube Ad">Youtube</option>
