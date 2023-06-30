@@ -126,7 +126,8 @@ The media query will fire below 1200px
   }
 
   .main-nav {
-    background-color: hsla(0, 0%, 100%, 0.911);
+    background-color: hsla(0, 0%, 100%, 0.534);
+    backdrop-filter: blur(10px);
     position: absolute;
     top: 0;
     left: 0;
